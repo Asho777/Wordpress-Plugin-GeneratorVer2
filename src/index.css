@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #f0f2f5;
+  color: #1e1e1e;
+}
+
+.wp-button {
+  @apply bg-wordpress-blue hover:bg-wordpress-lightblue text-white font-bold py-2 px-4 rounded transition-colors;
+}
+
+.wp-input {
+  @apply border border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-wordpress-blue;
+}
+
+.wp-checkbox {
+  @apply w-4 h-4 text-wordpress-blue bg-gray-100 border-gray-300 rounded focus:ring-wordpress-blue;
+}
+
+.wp-select {
+  @apply bg-white border border-gray-300 text-gray-900 text-sm rounded block w-full p-2.5 focus:ring-wordpress-blue focus:border-wordpress-blue;
+}
+
+.wp-card {
+  @apply bg-white rounded-lg shadow-md p-6 mb-4;
+}
+
+.wp-section {
+  @apply border-b border-gray-200 pb-4 mb-4;
+}
+
+.wp-tab {
+  @apply inline-block p-4 border-b-2 rounded-t-lg;
+}
+
+.wp-tab-active {
+  @apply text-wordpress-blue border-wordpress-blue;
+}
+
+.wp-tab-inactive {
+  @apply border-transparent hover:text-gray-600 hover:border-gray-300;
+}

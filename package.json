@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-plugin-generator",
+  "version": "1.0.0",
+  "description": "An application to generate WordPress plugins based on user specifications",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "jszip": "^3.10.1",
+    "file-saver": "^2.0.5",
+    "prismjs": "^1.29.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "tailwindcss": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.1",
+    "vite": "^4.3.9"
+  }
+}
